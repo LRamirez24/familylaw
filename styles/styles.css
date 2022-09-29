@@ -9,6 +9,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -602,6 +603,182 @@ form {
   color: #3B3B3B;
   font-weight: 700;
   margin-right: 15%;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 90%;
+  position: relative;
+  margin: auto;
+  color: #3B3B3B;
+  background-color: #EFF0F5;
+  min-height: 60rem;
+}
+
+.slideshow-container h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  font-weight: 700;
+  color: #3B3B3B;
+  font-size: 42px;
+  margin-top: 4rem;
+}
+
+.slideshow-container h1::after {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  min-width: 4rem;
+  height: clamp(0.25rem, 0.5vh, 0.75rem);
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin-top: 2.4rem;
+  background-color: #997B2E;
+  content: "";
+}
+
+.slideshow-container .quote {
+  text-align: center;
+  color: #3B3B3B;
+  font-size: 2.4rem;
+  line-height: 129%;
+  font-weight: 400;
+  font-style: italic;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 4rem;
+}
+
+.slideshow-container .quote::before {
+  content: open-quote;
+  font-family: Palanquin Dark,sans-serif;
+}
+
+.slideshow-container .quote::after {
+  content: close-quote;
+  font-family: Palanquin Dark,sans-serif;
+}
+
+.slideshow-container .attribution {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  font-size: 28px;
+  line-height: 149%;
+  color: #3B3B3B;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 4rem;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 30%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #997B2E;
+  font-weight: bold;
+  font-size: 40px;
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  -webkit-transition: background-color 0.6s ease;
+  transition: background-color 0.6s ease;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+          animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .site-footer footer {
@@ -1380,6 +1557,22 @@ form {
   }
   .area:hover {
     color: #c29c3c;
+  }
+  .slideshow-container {
+    min-height: 50rem;
+  }
+  .slideshow-container .quote {
+    font-size: 1.6rem;
+  }
+  .slideshow-container h1 {
+    font-size: 2.4rem;
+  }
+  .slideshow-container .prev, .slideshow-container .next {
+    top: 35%;
+    padding: 16px;
+    font-size: 2.4rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
   }
 }
 
