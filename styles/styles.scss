@@ -212,8 +212,10 @@ a{
     width: 90%;
     .picture-main{
     max-width: 40%;
-    width: auto;
+    // width: auto;
+    width: 28rem;
     height: 40vh;
+    
     }
     .main-section{
     flex-grow: 1;
