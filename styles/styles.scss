@@ -146,7 +146,7 @@ a{
     z-index: 100;
     h1{
         margin-top: 1rem;
-        font-size: 2.4rem;
+        font-size: 3.2rem;
     }
     .active{
         color: #997B2E;
@@ -193,7 +193,7 @@ a{
 }
 
 .nav-logo {
-    font-size: 2.4rem;
+    font-size: 3.2rem;
     font-weight: 700;
     color: #997B2E;
     font-family: 'Raleway', sans-serif;
@@ -581,7 +581,7 @@ a{
         margin-top: 4rem;
         &::after{
         display: flex;
-        width: 80%;
+        width: 24%;
         min-width: 4rem;
         height: clamp(0.25rem,0.5vh,0.75rem);
         flex-direction: row;
@@ -753,6 +753,9 @@ a{
     font-weight: 700;
     text-decoration: none;
     padding-bottom: 1rem;
+    &:hover{
+        color: #B07D2C;
+    }
 
 }
 
@@ -760,6 +763,14 @@ a{
 
 
 //responsive design
+
+@media only screen and (min-width: 2400px) {
+    .hero .picture-main {
+        max-width: 40%;
+        width: auto;
+        height: 40vh;
+    }
+        }
 
 @media only screen and (max-width: 1200px) {
     
@@ -1571,7 +1582,7 @@ a{
     white-space: normal;
     font-family: 'Raleway', sans-serif;
     &:hover{
-        color: #c29c3c;
+        color: #B07D2C;
     }
  }
  .slideshow-container{
@@ -1708,8 +1719,8 @@ article{
 }
 
 .linkedin-logo{
-    width: 4rem;
-    height: 4rem;
+    width: 6rem;
+    height: 6rem;
 }
 
 .consultation-button2{
@@ -1723,7 +1734,7 @@ article{
     padding: 30px;
     border-radius: 6px;
     &:hover{
-        background-color: #B07D2C;;
+        background-color: #B07D2C;
     }
 }
 
@@ -2122,7 +2133,7 @@ article{
     width: 120px;
     height: 60px;
     &:hover{
-        background-color: #B07D2C;;
+        background-color: #B07D2C;
     }
  }
 
@@ -2248,6 +2259,14 @@ h5{
     // padding-bottom: 4rem;
     gap: 3rem;
     width: 90%;
+        a{
+                font-size: 1.6rem;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 400;
+                color: 	blue;
+                text-decoration: underline;   
+                line-height: 140%;
+        }
 }
 
 .info-data{
@@ -2263,7 +2282,7 @@ h5{
     gap: 2rem;
     width: 90%;
     h4{
-        margin-top: 2rem;
+        margin-top: 4rem;
         font-size: 2.4rem;
         font-weight: 400;
         font-family: 'Raleway', sans-serif;
@@ -2279,6 +2298,7 @@ h5{
     }
     a{
         color: blue;
+        font-size: 1.4rem;
     }
     p{
         font-size: 1.6rem;
@@ -2290,3 +2310,4 @@ h5{
 .last{
     margin-bottom: 4rem;
 }
+
