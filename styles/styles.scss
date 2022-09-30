@@ -1449,6 +1449,25 @@ a{
  
     }
 
+    @media screen and (max-width: 650px) {
+        .slideshow-container{
+            min-height: 50rem;
+            .quote{
+                font-size: 1.6rem;
+            }
+            h1{
+                font-size: 2.4rem;
+            }
+            .prev, .next {
+                top: 35%;
+                padding: 16px;
+                font-size: 2.4rem;
+                margin-left: 0rem;
+                margin-right: 0rem;
+              }
+         }
+    }
+
     @media only screen and (max-width: 500px) {
         // header nav{
         //     display: flex;
@@ -1926,6 +1945,11 @@ article{
             font-size: 3.2rem;
         }
         p{
+            font-size: 2.4rem;
+        }
+    }
+    .slideshow-container{
+        .attribution{
             font-size: 2.4rem;
         }
     }

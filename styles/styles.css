@@ -1481,6 +1481,25 @@ form {
   }
 }
 
+@media screen and (max-width: 650px) {
+  .slideshow-container {
+    min-height: 50rem;
+  }
+  .slideshow-container .quote {
+    font-size: 1.6rem;
+  }
+  .slideshow-container h1 {
+    font-size: 2.4rem;
+  }
+  .slideshow-container .prev, .slideshow-container .next {
+    top: 35%;
+    padding: 16px;
+    font-size: 2.4rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+}
+
 @media only screen and (max-width: 500px) {
   .nav-menu {
     top: 9rem;
@@ -2002,6 +2021,9 @@ article {
     font-size: 3.2rem;
   }
   .about-bio p {
+    font-size: 2.4rem;
+  }
+  .slideshow-container .attribution {
     font-size: 2.4rem;
   }
 }
