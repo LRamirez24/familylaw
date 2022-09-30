@@ -59,6 +59,7 @@ p {
   line-height: 130%;
   letter-spacing: 0.2px;
   font-family: 'Raleway', sans-serif;
+  color: #3b3b3bc0;
 }
 
 a {
@@ -147,7 +148,7 @@ a {
 }
 
 .nav-link:hover {
-  color: #997B2E;
+  color: #B07D2C;
 }
 
 .nav-logo {
@@ -228,7 +229,7 @@ a {
 }
 
 .consultation-button:hover {
-  background-color: #c29c3c;
+  background-color: #B07D2C;
 }
 
 .home-intro {
@@ -288,10 +289,11 @@ a {
 .home-intro p {
   padding-left: 5%;
   padding-right: 5%;
-  color: #7a7a7a;
+  color: #3b3b3bc0;
   font-size: 20px;
   font-weight: 400;
   line-height: 175%;
+  margin-top: 1rem;
 }
 
 .logos {
@@ -324,7 +326,7 @@ a {
   background-color: #EFF0F5;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  gap: 2rem;
+  gap: 3rem;
   width: 90%;
   max-width: 90vw;
 }
@@ -343,12 +345,13 @@ a {
   padding-left: 5%;
   text-align: start;
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .home-practice-areas p {
   padding-left: 5%;
   padding-right: 5%;
-  color: #3B3B3B;
+  color: #3b3b3bc0;
   font-size: 20px;
   font-weight: 400;
   line-height: 175%;
@@ -378,7 +381,7 @@ a {
 }
 
 .area:hover {
-  color: #c29c3c;
+  color: #c38c33;
 }
 
 .arrow {
@@ -399,7 +402,7 @@ a {
   color: #3B3B3B;
   background-color: #FFFFFF;
   padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
   gap: 3rem;
   width: 90%;
   max-width: 90vw;
@@ -439,7 +442,7 @@ form {
 }
 
 .text-input, textarea {
-  border: 1px solid #7a7a7a;
+  border: 1px solid #3b3b3bc0;
   outline: none;
   border-radius: 4px;
   -webkit-filter: drop-shadow(0px 1px 1px #3B3B3B);
@@ -469,7 +472,7 @@ form {
 }
 
 .submit-button:hover {
-  background-color: #c29c3c;
+  background-color: #B07D2C;
 }
 
 .client-testimonials {
@@ -485,7 +488,6 @@ form {
           align-items: center;
   font-family: Raleway,sans-serif;
   font-weight: 700;
-  color: #3B3B3B;
   background-color: #EFF0F5;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -505,7 +507,7 @@ form {
           flex-flow: column;
   font-weight: 700;
   color: #3B3B3B;
-  font-size: 42px;
+  font-size: 4.2rem;
   margin-top: 4rem;
 }
 
@@ -578,7 +580,7 @@ form {
 
 .quote {
   text-align: center;
-  color: #3B3B3B;
+  color: #3b3b3bc0;
   font-size: 24px;
   line-height: 129%;
   font-weight: 400;
@@ -649,7 +651,7 @@ form {
 
 .slideshow-container .quote {
   text-align: center;
-  color: #3B3B3B;
+  color: #3b3b3bc0;
   font-size: 2.4rem;
   line-height: 129%;
   font-weight: 400;
@@ -794,7 +796,7 @@ form {
           flex-direction: column;
   font-family: Raleway,sans-serif;
   margin-bottom: 4rem;
-  padding-top: 4rem;
+  padding-top: 2rem;
   gap: 1rem;
 }
 
@@ -1770,7 +1772,7 @@ article {
 }
 
 .consultation-button2:hover {
-  background-color: #c29c3c;
+  background-color: #B07D2C;
 }
 
 .headshot2 {
@@ -1819,7 +1821,7 @@ article {
 .list-block ul {
   padding-left: 5%;
   padding-right: 5%;
-  color: #3B3B3B;
+  color: #3b3b3bc0;
   font-size: 20px;
   font-weight: 400;
   line-height: 175%;
@@ -1838,7 +1840,7 @@ article {
           flex-direction: column;
   font-family: Raleway,sans-serif;
   font-weight: 700;
-  color: #3B3B3B;
+  color: #3b3b3bc0;
   background-color: #FFFFFF;
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -1865,7 +1867,7 @@ article {
 .list-block2 ul {
   padding-left: 5%;
   padding-right: 5%;
-  color: #3B3B3B;
+  color: #3b3b3bc0;
   font-size: 20px;
   font-weight: 400;
   line-height: 175%;
@@ -1888,7 +1890,7 @@ article {
   background-color: #EFF0F5;
   padding-top: 4rem;
   padding-bottom: 4rem;
-  gap: 2rem;
+  gap: 3rem;
   width: 90%;
 }
 
@@ -1911,7 +1913,7 @@ article {
 .about-bio p {
   padding-left: 5%;
   padding-right: 5%;
-  color: #3B3B3B;
+  color: #3b3b3bc0;
   font-size: 2rem;
   font-weight: 400;
   line-height: 175%;
@@ -2218,7 +2220,7 @@ form {
 }
 
 .submit-button:hover {
-  background-color: #c29c3c;
+  background-color: #B07D2C;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -2235,5 +2237,174 @@ form {
     resize: none;
     width: auto;
   }
+}
+
+.privacy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 6rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 700;
+  background-color: #FFFFFF;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  margin-top: 6rem;
+  gap: 3rem;
+  width: 90%;
+  color: #3B3B3B;
+  font-family: 'Raleway', sans-serif;
+}
+
+.privacy h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  font-weight: 700;
+  color: #3B3B3B;
+  font-size: 4.2rem;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.privacy h1:after {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  min-width: 4rem;
+  height: clamp(0.25rem, 0.5vh, 0.75rem);
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin-top: 2.4rem;
+  background-color: #997B2E;
+  content: "";
+}
+
+.privacy h2 {
+  font-size: 2.4rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.privacy p {
+  padding-left: 0%;
+  padding-right: 0%;
+  color: #3b3b3bc0;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 175%;
+  margin-top: 1rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.privacy li {
+  font-size: 1.6rem;
+  list-style: inside;
+  padding-left: 2%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #3b3b3bc0;
+}
+
+.logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.logos a {
+  width: 15%;
+}
+
+h5 {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.policies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #3B3B3B;
+  background-color: #fff;
+  padding: 0 6rem;
+  gap: 3rem;
+  width: 90%;
+}
+
+.info-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #3B3B3B;
+  background-color: #fff;
+  padding: 0 6rem;
+  gap: 2rem;
+  width: 90%;
+}
+
+.info-data h4 {
+  margin-top: 2rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  font-family: 'Raleway', sans-serif;
+}
+
+.info-data li {
+  font-size: 1.6rem;
+  list-style: inside;
+  padding-left: 2%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #3b3b3bc0;
+}
+
+.info-data a {
+  color: blue;
+}
+
+.info-data p {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.last {
+  margin-bottom: 4rem;
 }
 /*# sourceMappingURL=styles.css.map */
