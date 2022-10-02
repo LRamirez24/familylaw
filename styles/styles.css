@@ -915,6 +915,9 @@ form {
   .header {
     border-bottom: 1px solid #E2E8F0;
   }
+  .nav-logo {
+    font-size: 2.4rem;
+  }
   .content h1 {
     font-size: 1.6rem;
     margin-bottom: 2rem;
@@ -979,6 +982,14 @@ form {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
   }
+  .nav-logo {
+    font-size: 1.6rem;
+  }
+  .navbar h1 {
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    text-align: start;
+  }
 }
 
 @media only screen and (max-width: 800px) {
@@ -1027,6 +1038,9 @@ form {
   }
   .header {
     border-bottom: 1px solid #E2E8F0;
+  }
+  .nav-logo {
+    font-size: 1.6rem;
   }
   .hero {
     padding: 0px 0rem;
@@ -1513,6 +1527,9 @@ form {
   }
   .navbar h1 {
     margin-top: 1rem;
+    font-size: 1.6rem;
+  }
+  .nav-logo {
     font-size: 1.6rem;
   }
   .hero {
