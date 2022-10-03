@@ -179,9 +179,7 @@ a {
 }
 
 .hero .picture-main {
-  max-width: 40%;
-  width: 28rem;
-  height: 40vh;
+  max-width: 30%;
 }
 
 .hero .main-section {
